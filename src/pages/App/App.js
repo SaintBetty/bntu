@@ -15,7 +15,7 @@ const App = () => {
         <Route
           exact
           path={item.path}
-          component={item.component}
+          component={() => item.component}
           key={`react-router--${index}`}
         >
           {item.component}
