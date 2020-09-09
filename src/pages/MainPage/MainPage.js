@@ -35,7 +35,7 @@ const MainPage = () => {
       item.label.includes(searchValue.toUpperCase())
     );
     setUnivers(newList);
-  }, [searchValue, universList]);
+  }, [searchValue]);
 
   return (
     <div className={style.container}>
