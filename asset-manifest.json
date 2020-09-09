@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bntu/static/css/main.fea5fd13.chunk.css",
+    "main.js": "/bntu/static/js/main.278663b0.chunk.js",
+    "main.js.map": "/bntu/static/js/main.278663b0.chunk.js.map",
+    "runtime-main.js": "/bntu/static/js/runtime-main.8766298a.js",
+    "runtime-main.js.map": "/bntu/static/js/runtime-main.8766298a.js.map",
+    "static/js/2.29a7c6fd.chunk.js": "/bntu/static/js/2.29a7c6fd.chunk.js",
+    "static/js/2.29a7c6fd.chunk.js.map": "/bntu/static/js/2.29a7c6fd.chunk.js.map",
+    "index.html": "/bntu/index.html",
+    "precache-manifest.3bc8ebdda5341b70566e5797a6bd5d13.js": "/bntu/precache-manifest.3bc8ebdda5341b70566e5797a6bd5d13.js",
+    "service-worker.js": "/bntu/service-worker.js",
+    "static/css/main.fea5fd13.chunk.css.map": "/bntu/static/css/main.fea5fd13.chunk.css.map",
+    "static/js/2.29a7c6fd.chunk.js.LICENSE.txt": "/bntu/static/js/2.29a7c6fd.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/bntu/static/media/arrow.ee642307.svg",
+    "static/media/cop.png": "/bntu/static/media/cop.9471c5a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8766298a.js",
+    "static/js/2.29a7c6fd.chunk.js",
+    "static/css/main.fea5fd13.chunk.css",
+    "static/js/main.278663b0.chunk.js"
+  ]
+}
