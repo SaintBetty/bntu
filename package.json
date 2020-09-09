@@ -1,5 +1,5 @@
 {
-  "homepage": "http://copustochka.bntu",
+  "homepage": "https://saintbetty.github.io/bntu/",
   "name": "bntu",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "react-scripts build",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
