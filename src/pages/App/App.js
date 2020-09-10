@@ -1,6 +1,7 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
-import MainPage from '../MainPage/MainPage'
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import MainPage from "../MainPage/MainPage.jsx";
+import InfoPage from "../InfoPage/InfoPage";
 
 const App = () => {
   const pages = [
@@ -8,20 +9,27 @@ const App = () => {
       path: "/",
       component: <MainPage />,
     },
+    {
+      path: "/:univer",
+      component: <InfoPage />,
+    },
   ];
   return (
-    <Switch>
-     {pages.map((item, index) => (
-        <Route
-          exact
-          path={item.path}
-          component={() => item.component}
-          key={`react-router--${index}`}
-        >
-          {item.component}
-        </Route>))}
+    <BrowserRouter>
+      <Switch>
+        {pages.map((item, index) => (
+          <Route
+            exact
+            path={item.path}
+            component={() => item.component}
+            key={`react-router--${index}`}
+          >
+            {item.component}
+          </Route>
+        ))}
       </Switch>
-    );
-}
+    </BrowserRouter>
+  );
+};
 
 export default App;

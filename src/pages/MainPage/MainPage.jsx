@@ -2,7 +2,7 @@ import React from "react";
 import style from "./MainPage.module.css";
 import cop from "../../images/cop.png";
 import arrow from "../../images/arrow.svg";
-import UniverButton from "../../components/UniverButton/UniverButton";
+import UniverButton from "../../components/UniverButton/UniverButton.jsx";
 
 const MainPage = () => {
   const [searchValue, setValue] = React.useState("");
@@ -59,7 +59,7 @@ const MainPage = () => {
       />
       <div className={style.list}>
         {univers.map((item, index) => (
-          <UniverButton title={item.label} key={index} />
+          <UniverButton title={item.label} key={index} url={item.value} />
         ))}
       </div>
     </div>
