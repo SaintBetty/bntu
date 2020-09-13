@@ -17,7 +17,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        {" "}
         {pages.map((item, index) => (
           <Route
             exact
@@ -25,8 +24,8 @@ const App = () => {
             component={() => item.component}
             key={`react-router--${index}`}
           />
-        ))}{" "}
-      </Switch>{" "}
+        ))}
+      </Switch>
     </BrowserRouter>
   );
 };
