@@ -17,17 +17,16 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        {" "}
         {pages.map((item, index) => (
           <Route
             exact
             path={item.path}
             component={() => item.component}
             key={`react-router--${index}`}
-          >
-            {item.component}
-          </Route>
-        ))}
-      </Switch>
+          />
+        ))}{" "}
+      </Switch>{" "}
     </BrowserRouter>
   );
 };

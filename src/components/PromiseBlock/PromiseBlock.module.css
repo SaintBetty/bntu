@@ -1,0 +1,60 @@
+.container {
+    margin-top: 5.556vw;
+    margin-left: 3.264vw;
+    margin-right: 3.264vw;
+    border: 15px solid #FFFFFF;
+    border-radius: 82px;
+    border-bottom: none;
+    padding: 5.972vw 3.542vw 8.333vw 5.764vw;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 4.861vw;
+    line-height: 5.903vw;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 2.431vw;
+    line-height: 2.986vw;
+    color: #FFFFFF;
+    max-width: 60.208vw;
+}
+
+.black {
+    color: #544F4F;
+    font-weight: 800;
+    font-size: 2.431vw;
+    line-height: 2.986vw;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.circle {
+    background: #CCF056;
+    width: 1.875vw;
+    height: 1.875vw;
+    margin-right: 1.111vw;
+    border-radius: 50%;
+}
+
+.tick {
+    margin-right: 1.111vw;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-top: 1.389vw;
+}
+
+.list {
+    margin-top: 2.361vw;
+    margin-bottom: 2.569vw;
+}
